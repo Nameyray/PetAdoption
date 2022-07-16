@@ -6,4 +6,79 @@
     android:layout_height="match_parent"
     tools:context=".ui.LoginActivity">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="62dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/pet1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PETPARK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:id="@+id/email1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:text="Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <TextView
+        android:id="@+id/password1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:text="Password"
+        app:layout_constraintEnd_toEndOf="@+id/email1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        app:layout_constraintEnd_toEndOf="@+id/remember"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="@+id/password1"
+        tools:layout_editor_absoluteY="488dp" />
+
+    <TextView
+        android:id="@+id/remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot password?"
+        app:layout_constraintEnd_toEndOf="@+id/password1"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        app:layout_constraintEnd_toStartOf="@+id/txtReg"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="593dp" />
+
+    <TextView
+        android:id="@+id/txtReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        tools:layout_editor_absoluteX="263dp"
+        tools:layout_editor_absoluteY="593dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
